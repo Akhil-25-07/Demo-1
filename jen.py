@@ -3,7 +3,7 @@
 #        DEFAULT INPUT VERSION
 # ============================================
 
-class Student:
+class Students:
 
     def __init__(self, student_id, name, age, course, marks):
         self.student_id = student_id
@@ -34,7 +34,7 @@ class Student:
         else:
             return "F"
 
-    def result(self):
+    def results(self):
         if self.average() >= 40:
             return "PASS"
         else:
